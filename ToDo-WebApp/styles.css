@@ -156,3 +156,16 @@ select {
     color: rgb(255, 200, 0);
 }
 
+@media screen and (max-width: 768px) {
+    
+    .todo-list {
+        min-width: 70%;
+    }
+    form {
+        flex-direction: column; 
+    }
+    form input, form button {
+        width: 100%; 
+    }
+}
+
